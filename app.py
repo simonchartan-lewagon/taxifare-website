@@ -1,7 +1,6 @@
 import streamlit as st
 from datetime import datetime
 import requests
-import geocoder
 import pandas as pd
 import numpy as np
 
@@ -12,8 +11,6 @@ def jump_line():
     st.markdown(
     '''
     ''')
-
-
 
 # Here we would like to add some controllers in order to ask the user to select the parameters of the ride
 #1. Let's ask for:
@@ -114,7 +111,6 @@ with col1:
 
 
 jump_line()
-
 
 with col2:
 
