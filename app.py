@@ -78,9 +78,9 @@ with col1:
         ''')
 
     st.write('''### Here is your taxi drive summary:''')
-    st.write('⚫ Taxi drive for',n,f'{persons} on',d,'at',t)
-    st.write('⚫ Pickup location:', pickup_address)
-    st.write('⚫ Dropoff location:', dropoff_address)
+    st.write('⚪ Taxi drive for',n,f'{persons} on',d,'at',t)
+    st.write('⚪ Pickup location:', pickup_address)
+    st.write('⚪ Dropoff location:', dropoff_address)
 
     if pickup_address != '' and dropoff_address != '':
 
