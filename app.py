@@ -114,6 +114,8 @@ jump_line()
 
 with col2:
 
+    jump_line()
+    jump_line()
     df = pd.DataFrame(
         [[p_lat,p_long],
         [d_lat,d_long]],
